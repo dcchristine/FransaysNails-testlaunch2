@@ -1,0 +1,695 @@
+/* GENERAL CSS STYLING */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.headings{
+    font-size: 80px;
+    padding-bottom: 15px;
+}
+.subheadings {
+    font-size: 30px;
+}
+
+#horizontal{
+    width: 75%;
+    height: 3px;
+    position: relative;
+    margin: 2% 0% 2% 0%;
+    left:10%;
+    background-color: #67224B;
+}
+
+#descriptions {
+
+  height: 300px;
+  width: 250px;
+  color:#3D1429;
+  position:relative;
+}
+
+/* OVERALL CLASS CSS WEBSITE LAYOUT */
+
+
+.mainbackground{
+    width: 100%;
+    height: 100% ;
+    position: absolute;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(89, 8, 69, 0.086),rgba(97, 11, 109, 0.282)),url(../images/background.jpg);
+   
+}
+
+.colorbg{
+    background-color:#c594b0cd;
+    position: absolute;
+    padding: 50%;
+    top:44.6em;
+    height: max-content;
+}
+
+.bgno2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 300%;
+    background: linear-gradient(rgba(89, 8, 69, 0.086),rgba(97, 11, 109, 0.282)),url(../images/pexelimg3.jpg);
+}
+
+.logo{
+    height: 50px;
+    right: 10px;
+}
+
+.navibar{
+    width: 97.3%;
+    background-color: rgba(87, 27, 83, 0.625) ;
+    margin: auto;
+    padding: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navibar hr{
+    width: 25%;
+    height: 1%;
+    left: 10px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.navibar ul li{
+    
+    list-style: none;
+    size: 20px;
+    display: inline-block; 
+    margin: 0 10px;
+    padding: 2px 25px;
+    position: relative;
+}
+
+.navibar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+.navibar ul li a::after{
+    content: '';
+    height: 28px;
+    width: 0;
+    background:#e381c95b;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.navibar ul li a:hover::after{
+    width: 100%;
+}
+
+
+.content{
+    text-align: center;
+    margin: 15% 1%;
+    color:#3D1429;
+    font-size: 20px;
+    
+}
+
+/* PRODUCTS PAGE CSS WEBSITE LAYOUT */
+
+.productspage{
+    text-align: center;
+    margin: 1% 0%;
+    color:#3D1429;
+    font-size: 20px;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+
+.productnavigation{
+    display: flex;
+    position: relative;
+    margin: 0 0% 2% 15%;
+    padding: 0em 6em 0em 6em;
+}
+
+.productnavigation span{
+    padding: 0em 3em 0em 3em;
+}
+
+.productnavigation a{
+    text-decoration: none;
+    color: #3D1429;
+}
+
+.productnavigation a:hover{
+
+    background-color: #ff98cd75;
+    padding: 0.5rem;
+    transition-duration: 0.5s;
+    font-size: 2em;
+}
+
+.nailcolorlacquer{
+    background-color: #3D1429;
+    color:beige;
+    left: 12%;
+    position: absolute;
+    height: 110%;
+    width: 75%;
+    padding: 40px 15px 0px 5px;
+    border-radius: 0.5em;
+    outline: auto rgba(245, 245, 220, 0.674);
+}
+
+.product1{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(252, 245, 237);
+    position:relative;
+    left: 3%;
+    color: beige;
+    border-radius: 10px;
+
+}
+
+.product1:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(252, 245, 237, 0.471);
+    position:relative;
+    left: 3%;
+    color: rgb(245, 245, 220);
+
+}
+
+.product1 img {
+    position: absolute;
+    background-color: none;
+    right: 2%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.product1 p {
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 40px;
+    background-color: #3d1429a3;
+    color:beige;
+    height: fit-content;
+ 
+}
+
+.product2{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(252, 245, 237);
+    position:absolute;
+    left: 27%;
+    color: beige;
+    border-radius: 10px;
+
+}
+
+.product2:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(252, 245, 237, 0.471);
+    position:absolute;
+    left: 27%;
+    color: beige;
+
+}
+
+.product2 img {
+   
+    position: absolute;
+    background-color: none;
+    right: 2%;
+    height: 100%;
+    width: 100%;
+}
+
+.product2 p {
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 40px;
+    background-color: #3d1429a3;
+    color:beige;
+    height: fit-content;
+ 
+}
+
+.product3{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(252, 245, 237);
+    position:absolute;
+    left: 51%;
+    color: beige;
+    border-radius: 10px;
+
+}
+
+.product3:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(252, 245, 237, 0.471);
+    position:absolute;
+    left: 51%;
+    color: beige;
+
+}
+
+.product3 img {
+   
+    position: absolute;
+    background-color: none;
+    left: 8%;
+    height: 100%;
+    width: 100%;
+}
+
+.product3 p {
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 40px;
+    background-color: #3d1429a3;
+    color:beige;
+    height: fit-content;
+ 
+}
+
+.product4{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(252, 245, 237);
+    position:absolute;
+    left: 75%;
+    color: beige;
+    border-radius: 10px;
+
+}
+
+.product4:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(252, 245, 237, 0.471);
+    position:absolute;
+    left: 75%;
+    color: beige;
+
+}
+
+.product4 img {
+   
+    position: absolute;
+    background-color: none;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.product4 p {
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 40px;
+    background-color: #3d1429a3;
+    color:beige;
+    height: fit-content;
+ 
+}
+
+.nailcaretools{
+    background-color: #e6bfdc   ;
+    color: #3D1429;
+    left: 12%;
+    top:1150px;
+    position: absolute;
+    height: 105%;
+    width: 75%;
+    padding: 50px 15px 0px 0px;
+    border-radius: 0.5em;
+    outline: auto #3D1429;
+}
+
+.pexelimg1 img{
+    height: 40em;
+    width: 22%;
+    background: linear-gradient(rgba(89, 8, 69, 0.086),rgba(97, 11, 109, 0.282)),;
+    background-color: rgb(252, 245, 237);
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 0.3em;
+ 
+}
+
+.liquidbundle{
+    height: 30em;
+    width: 25%;
+    background-color: #3D1429;
+    left: 13em;
+    top: 10em;
+    position:absolute;
+    color: beige;
+   
+}
+
+.liquidbundle img{
+    height: 18em;
+    margin-top: 3em;
+    left: 1em;
+    padding: 0;
+}
+
+.liquidbundle p{
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 22em 0em 5em 0em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+    outline: auto beige;
+   
+
+}
+
+.toolset{
+    height: 30em;
+    width: 25%;
+    background-color: #3D1429;
+    left: 28em;
+    top: 6em;
+    position:absolute;
+    color: beige;
+   
+}
+
+.toolset img{
+    height: 14em;
+    margin-top: 3em;
+    left: 1em;
+    margin-top: 6em;
+}
+
+.toolset p{
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 22em 0em 5em 0em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+    outline: auto beige;
+
+}
+
+.bundle{
+    height: 30em;
+    width: 25%;
+    background-color: #3D1429;
+    left: 43em;
+    top: 10em;
+    position:absolute;
+    color: beige;
+}
+
+.bundle img{
+    height: 18em;
+    margin-top: 3em;
+    left: 1em;
+    padding: 0;
+}
+
+.bundle p{
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 22em 0em 5em 0em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+    outline: auto beige;
+
+}
+
+.nailartneeds{
+    background-color: #3d1429;
+    color: beige;
+    left: 12%;
+    top:2005px;
+    position: absolute;
+    height: 105%;
+    width: 75%;
+    padding: 50px 15px 0px 0px;
+    border-radius: 0.5em;
+    outline: auto beige;
+}
+
+.dottingtool{
+    height: 10em;
+    width: 20em;
+    background: none;
+    left: 2em;
+    top: 6em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.dottingtool img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    left: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.dottingtool p{
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 3em 0em 5em 10em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+}
+
+.nailpolishpencorrector{
+    height: 10em;
+    width: 20em;
+    background: none;
+    left: 2em;
+    top: 17.3em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailpolishpencorrector img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    left: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailpolishpencorrector p{
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 3em 0em 5em 10em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+}
+
+
+.nailartstencil{
+    height: 10em;
+    width: 20em;
+    background: none;
+    left: 2em;
+    top: 28.5em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailartstencil img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    left: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailartstencil p{
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 3em 0em 5em 10em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+}
+
+.nailartbrush{
+    height: 10em;
+    width: 20em;
+    background: none;
+    right: 2em;
+    top: 28.5em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailartbrush img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    right: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailartbrush p{
+    right: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 3em 10em 5em 0em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+}
+
+.nailartstamper{
+    height: 10em;
+    width: 20em;
+    background: none;
+    right: 2em;
+    top: 17.3em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailartstamper img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    right: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailartstamper p{
+    right: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 3em 10em 5em 0em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+}
+
+.glittersandsequins{
+    height: 10em;
+    width: 20em;
+    background: none;
+    right: 2em;
+    top: 6em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.glittersandsequins img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    right: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.glittersandsequins p{
+    right: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 3em 10em 5em 0em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+}
+
+
+
+
+
+
+/* SERVICES CSS WEBSITE LAYOUT */
+/* AVAIL OUR OFFERS CSS WEBSITE LAYOUT */
+/* ABOUT US CSS WEBSITE LAYOUT */
